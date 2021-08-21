@@ -439,22 +439,20 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             ventanaClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(ventanaClientesLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(ventanaClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaClientesLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(btnVentaCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(53, 53, 53)
-                        .addComponent(btnEditarCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(59, 59, 59)
-                        .addComponent(btnDesactivarCliente)
-                        .addGap(121, 121, 121))
+                .addGroup(ventanaClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(panelTablaClientes, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 1010, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(ventanaClientesLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(ventanaClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(panelDatosCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(ventanaClientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(panelTablaClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 1010, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(Txinformacion9, javax.swing.GroupLayout.PREFERRED_SIZE, 994, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(92, Short.MAX_VALUE))))
+                            .addGroup(ventanaClientesLayout.createSequentialGroup()
+                                .addComponent(btnVentaCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(37, 37, 37)
+                                .addComponent(btnEditarCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(61, 61, 61)
+                                .addComponent(btnDesactivarCliente))
+                            .addComponent(Txinformacion9, javax.swing.GroupLayout.PREFERRED_SIZE, 994, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(92, Short.MAX_VALUE))
             .addGroup(ventanaClientesLayout.createSequentialGroup()
                 .addGap(226, 226, 226)
                 .addComponent(clienteRegistrado)
@@ -2154,10 +2152,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(ventanaUsuariosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaUsuariosLayout.createSequentialGroup()
-                        .addComponent(btnEditarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnEditarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(30, 30, 30)
-                        .addComponent(btnDesactivarUsuario)
-                        .addGap(184, 184, 184))
+                        .addComponent(btnDesactivarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(176, 176, 176))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ventanaUsuariosLayout.createSequentialGroup()
                         .addComponent(labelUsuariosRegistrados)
                         .addGap(147, 147, 147)
@@ -2428,7 +2426,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnCancelarCanal;
     private javax.swing.JButton btnCancelarCategoriaArticulo;
     private javax.swing.JButton btnCancelarCliente;
-    private javax.swing.JButton btnCancelarComuna;
+    public javax.swing.JButton btnCancelarComuna;
     private javax.swing.JButton btnCancelarEstadoVenta;
     private javax.swing.JButton btnCancelarPack;
     private javax.swing.JButton btnCancelarUsuario;
@@ -2438,7 +2436,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnDesactivarCanal;
     private javax.swing.JButton btnDesactivarCategoriaArticulo;
     private javax.swing.JButton btnDesactivarCliente;
-    private javax.swing.JButton btnDesactivarComuna;
+    public javax.swing.JButton btnDesactivarComuna;
     private javax.swing.JButton btnDesactivarEstadoVenta;
     private javax.swing.JButton btnDesactivarProveedor;
     private javax.swing.JButton btnDesactivarUsuario;
@@ -2447,7 +2445,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnEditarCanal;
     private javax.swing.JButton btnEditarCategoriaArticulo;
     private javax.swing.JButton btnEditarCliente;
-    private javax.swing.JButton btnEditarComuna;
+    public javax.swing.JButton btnEditarComuna;
     private javax.swing.JButton btnEditarEstadoVenta;
     private javax.swing.JButton btnEditarProveedor;
     private javax.swing.JButton btnEditarUsuario;
@@ -2568,7 +2566,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTable tablaCanales;
     private javax.swing.JTable tablaCategoriaArticulos;
     private javax.swing.JTable tablaClientes;
-    private javax.swing.JTable tablaComunas;
+    public javax.swing.JTable tablaComunas;
     private javax.swing.JTable tablaEstadoVentas;
     private javax.swing.JTable tablaPacks;
     private javax.swing.JTable tablaProveedores;
@@ -2579,7 +2577,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField txtBuscarCanal;
     private javax.swing.JTextField txtBuscarCategoriaArticulo;
     private javax.swing.JTextField txtBuscarCliente;
-    private javax.swing.JTextField txtBuscarComuna;
+    public javax.swing.JTextField txtBuscarComuna;
     private javax.swing.JTextField txtBuscarPack;
     private javax.swing.JTextField txtBuscarUsuario;
     private javax.swing.JTextField txtBuscarVenta;
@@ -2594,7 +2592,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField txtCodigoBanco;
     private javax.swing.JTextField txtCodigoCanal;
     private javax.swing.JTextField txtCodigoCategoriaArticulo;
-    private javax.swing.JTextField txtCodigoComuna;
+    public javax.swing.JTextField txtCodigoComuna;
     private javax.swing.JTextField txtCodigoEstadoVenta;
     private javax.swing.JTextField txtDigitoVerificadorRut;
     private javax.swing.JTextField txtEstadoVentas;
@@ -2603,7 +2601,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JTextField txtMarcaArticulos;
     private javax.swing.JTextField txtNombreBanco;
     private javax.swing.JTextField txtNombreCanal;
-    private javax.swing.JTextField txtNombreComuna;
+    public javax.swing.JTextField txtNombreComuna;
     private javax.swing.JTextField txtNombrePack;
     private javax.swing.JTextField txtNombreUsuario;
     private javax.swing.JTextField txtPrecioPack;
@@ -2624,7 +2622,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JPanel ventanaComunas;
     private javax.swing.JPanel ventanaEstadoVentas;
     private javax.swing.JPanel ventanaPacks;
-    private javax.swing.JTabbedPane ventanaPrincipal;
+    public javax.swing.JTabbedPane ventanaPrincipal;
     private javax.swing.JPanel ventanaProveedores;
     private javax.swing.JPanel ventanaUsuarios;
     // End of variables declaration//GEN-END:variables

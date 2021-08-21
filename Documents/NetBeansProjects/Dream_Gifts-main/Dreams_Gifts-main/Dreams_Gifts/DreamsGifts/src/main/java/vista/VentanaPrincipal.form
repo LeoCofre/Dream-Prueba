@@ -118,6 +118,9 @@
       </Layout>
       <SubComponents>
         <Container class="javax.swing.JTabbedPane" name="ventanaPrincipal">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
           <SubComponents>
@@ -149,27 +152,24 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="panelTablaClientes" alignment="0" min="-2" pref="1010" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="btnVentaCliente" min="-2" pref="88" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                  <Component id="btnEditarCliente" min="-2" pref="88" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                                  <Component id="btnDesactivarCliente" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="panelDatosCliente" min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="panelTablaClientes" min="-2" pref="1010" max="-2" attributes="0"/>
-                                          <Component id="Txinformacion9" min="-2" pref="994" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="btnVentaCliente" min="-2" pref="104" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Component id="btnEditarCliente" min="-2" pref="99" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                          <Component id="btnDesactivarCliente" min="-2" max="-2" attributes="0"/>
                                       </Group>
+                                      <Component id="Txinformacion9" min="-2" pref="994" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="92" max="32767" attributes="0"/>
                               </Group>
                           </Group>
+                          <EmptySpace pref="92" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="226" max="-2" attributes="0"/>
@@ -2369,6 +2369,9 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="Editar"/>
                   </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Component class="javax.swing.JButton" name="btnDesactivarComuna">
                   <Properties>
@@ -2377,6 +2380,9 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="Desactivar"/>
                   </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Component class="javax.swing.JLabel" name="labelComunasRegistradas">
                   <Properties>
@@ -2389,6 +2395,9 @@
                 <Component class="javax.swing.JTextField" name="Txinformacion4">
                 </Component>
                 <Component class="javax.swing.JTextField" name="txtBuscarComuna">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
                 </Component>
                 <Component class="javax.swing.JLabel" name="labelBuscarComuna">
                   <Properties>
@@ -2444,6 +2453,9 @@
                               <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                             </Property>
                           </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -2501,6 +2513,9 @@
                   </Layout>
                   <SubComponents>
                     <Component class="javax.swing.JTextField" name="txtNombreComuna">
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JButton" name="btnCancelarComuna">
                       <Properties>
@@ -2509,6 +2524,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Cancelar"/>
                       </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JButton" name="btnGuardarComuna">
                       <Properties>
@@ -2525,6 +2543,9 @@
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCodigoComunaActionPerformed"/>
                       </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="labelCodigoComuna">
                       <Properties>
@@ -3141,10 +3162,10 @@
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="btnEditarUsuario" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Component id="btnEditarUsuario" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="btnDesactivarUsuario" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+                                  <Component id="btnDesactivarUsuario" min="-2" pref="115" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="labelUsuariosRegistrados" min="-2" max="-2" attributes="0"/>
